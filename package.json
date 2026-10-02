@@ -1,0 +1,13 @@
+{
+  "name": "diadoc-people-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Статический прототип документооборота с физлицами для GitHub Pages",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/domain.test.mjs",
+    "check": "node --check docs/app.js && node --check docs/domain.js && node --check docs/storage.js"
+  },
+  "engines": { "node": ">=20" }
+}
